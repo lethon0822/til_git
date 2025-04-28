@@ -187,25 +187,41 @@ git show 커밋 아이디
 
 - `나뭇가지` 라는 의미로 원 줄기로부터 파생되는 것
 - 원 `소스`로부터 파생한 새롭게 `분기한 소스` 관리
+- 브랜치 생성시에는 add와 commit이 완료되어야 함
 
 #### 4.7.1. 브랜치 생성하기
 
 ```bash
-git branch 브랜치 이름
+git add .
+git commit -m "[docs] : 브랜치 실습 test 생성하기"
+git branch test
 ```
 
-#### 4.7.2. 브랜치 이동하기
+#### 4.7.2 브랜치 목록 보기
 
 ```bash
-git switch 브랜치 이름
+git branch -v
 ```
 
-#### 4.7.3. 브랜치 삭제하기
+#### 4.7.3. 브랜치 이동하기
 
 ```bash
-git branch -d 브랜치 이름
+git switch test
 ```
 
-#### 4.7.4. 브랜치 합치기
+#### 4.7.4. 브랜치 삭제하기
+
+```bash
+git branch -d test
+```
+
+#### 4.7.5. 브랜치 합치기
+
+- 브랜치를 하나로 합쳐주기
+- 주의사항 :
+
+```bash
+git merge 합쳐주고자 하는 브랜치명
+```
 
 # GitHub
