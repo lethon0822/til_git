@@ -230,4 +230,35 @@ git merge 합쳐주고자 하는 브랜치명
 
 # GitHub
 
+## 1. GitHub 회원가입하기
+
+- https://github.com
+
+## 2. GitHub 프로젝트 (Repository) 생성하기
+
 - 만약 til_git 프로젝트를 생성했다면 GitHub 에도 생성하자.
+- public 으로 셋팅 : 외부로 소스 공개
+- description 을 작성하자 : 프로젝트 설명
+
+## 3. GitHub 인증하기
+
+### 3.1. 무조건 GitHub에 로그인된 상태로 시도
+
+### 3.2. '윈도우 > 자격 증명 관리자 > Windows 자격 증명` 에서 GitHub 확인
+
+- 새로 생성하길 권장함
+- PC 정리 또는 자리 이동 시 반드시 삭제해야 함
+
+## 4. GitHub 프로젝트 연결하기
+
+### 4.1. 원격 저장소 주소 지정하기
+
+- `remote` : 원격(인터넷) 을 말함
+- `add` : 추가하기
+- `origin` : http 주소를 간략하게 별칭을 준 것
+
+```bash
+git remote add origin https://github.com/아이디/repository이름.git
+```
+
+### 4.2.
