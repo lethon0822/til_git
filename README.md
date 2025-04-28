@@ -255,10 +255,26 @@ git merge 합쳐주고자 하는 브랜치명
 
 - `remote` : 원격(인터넷) 을 말함
 - `add` : 추가하기
-- `origin` : http 주소를 간략하게 별칭을 준 것
+- `origin`
+  - http 주소를 간략하게 별칭을 준 것
+  - 단어는 마음대로 해도 됨
+  - `원격 이름`이라고 함
 
 ```bash
 git remote add origin https://github.com/아이디/repository이름.git
 ```
 
-### 4.2.
+### 4.2. 원격 저장소 목록 보기
+
+```bash
+git remote -v
+```
+
+### 4.3. 원격 저장소에 소스 등록하기
+
+- 습관적으로 하면 좋은 작업
+
+```bash
+git add .
+git commit -m "[docs] : 최초등록"
+```
