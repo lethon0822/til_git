@@ -278,3 +278,37 @@ git remote -v
 git add .
 git commit -m "[docs] : 최초등록"
 ```
+
+- 소스 업로드 = push 라고 함
+
+```bash
+git push -u origin main
+```
+
+- `-u` 옵션을 붙였다면 이후로는 `git push` 만 하면 됨.
+
+### 4.4. 원격 저장소 관리하기
+
+- 목록 보기
+
+```bash
+git remote -v
+```
+
+- 삭제하기
+
+```bash
+git remote remove 원격이름
+```
+
+- 추가하기
+
+```bash
+git remote add 원격이름 https주소
+```
+
+- 이름 바꾸기
+
+```bash
+git remote rename 옛이름 새이름
+```
