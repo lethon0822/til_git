@@ -103,10 +103,18 @@ git add README.md
 git add .
 ```
 
-### 4.4 수적 내역 메모 남기기
+### 4.4 수정 내역 메모 남기기
+
+- 한줄 작업 메모
 
 ```bash
-git commit -m "한줄메모"
+git commit -m "깃 작업 관련 설명글 작성"
+```
+
+- 여러 줄 메모 작성하기 (제목, 상세내용)
+
+```bash
+git commit
 ```
 
 # GitHub
