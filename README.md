@@ -420,3 +420,7 @@ git push 저장소이름 --delete 브랜치이름
 ```
 
 - ex) `git push origin --delete remotes/origin/jeju`
+
+## 7. 가능하면 브랜치는 삭제하지 않기 권장
+
+## 8. 가능하면 commit의 내용은 삭제 및 수정하지 않기 권장
