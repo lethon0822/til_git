@@ -398,3 +398,25 @@ git switch --track -c 생성브랜치명 원격브랜치명
 
 - ex) `git switch --track -c jeju remote/origin/seoul`
   - git branch -a 를 해야 원격브랜치명을 알 수 있어 적용 가능
+
+## 6. GitHub 브랜치 삭제하기
+
+- GitHub의 브랜치 모두 내려받기
+
+```bash
+git fetch --all
+```
+
+- 로컬 및 GitHub 브랜치 목록 모두 보기
+
+```bash
+git branch -a
+```
+
+- GitHub의 브랜치 삭제하기
+
+```bash
+git push 저장소이름 --delete 브랜치이름
+```
+
+- ex) `git push origin --delete remotes/origin/jeju`
