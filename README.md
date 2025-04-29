@@ -355,3 +355,5 @@ git add .
 git commit -m "작업내용"
 git push origin 새이름
 ```
+
+서울에서 작업 완료.
