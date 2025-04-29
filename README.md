@@ -321,7 +321,7 @@ git commit -m "메모 내용"
 git push origin main
 ```
 
-## 5. GitHub의 소스를 다운로드 받아서 작업하는 법
+## 5. GitHub의 소스를 복사(clone)받아서 작업하는 법
 
 - 깃허브 주소를 주의하기
 - https 로 진행중이므로 `https` 기준
