@@ -367,9 +367,6 @@ git commit -m "작업내용"
 git push origin 새이름
 ```
 
-<<<<<<< HEAD
-서울에서 작업 완료.
-=======
 ### 5.4. git push 이후 작업
 
 - jeju 폴더는 clone 을 하여 진행함.
@@ -401,4 +398,3 @@ git switch --track -c 생성브랜치명 원격브랜치명
 
 - ex) `git switch --track -c jeju remote/origin/seoul`
   - git branch -a 를 해야 원격브랜치명을 알 수 있어 적용 가능
->>>>>>> jeju
